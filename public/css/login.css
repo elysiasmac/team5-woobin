@@ -18,7 +18,7 @@ h2{
 h3{
 	font-family: Inter;
 	font-weight: medium;
-	font-size: 48px;
+	font-size: 1px;
 	line-height: 56px;
 	text-align: left;
 }
@@ -26,17 +26,44 @@ h3{
 h4{
 	font-family: Inter;
 	font-weight: normal;
-	font-size: 36px;
-	line-height: 54px;
+	font-size: 45px;
+	line-height: 90px;
 	text-align: left;
+	padding-left: 45px;
+	padding-right: 25px;
 }
+h5{
+	position: absolute;
+	width: 417px;
+	height: 90px;
+	left: 111px;
+	top: 858px;
 
-p{
 	font-family: Inter;
+	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 54px;
-	text-align: left;
+	font-size: 75px;
+	line-height: 91px;
+	text-align: center;
+
+	color: #000000;
+
+}
+h6{
+	position: absolute;
+	width: 417px;
+	height: 90px;
+	left: 111px;
+	top: 1224px;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 75px;
+	line-height: 91px;
+	text-align: center;
+
+	color: #000000;
 }
 
 .container{
@@ -58,7 +85,47 @@ p{
 	z-index: 1000;
 
 }
+.logo{
+	position: absolute;
+	width: 483px;
+	height: 483px;
+	left: 321px;
+	top: 380px;
+	color: white;
 
+	/*background: #C4C4C4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+  .circle {
+      width: 483px;
+      height: 483px;
+      border-radius: 250px;
+      border-radius: 250px;
+      border-radius: 250px;
+      background: gray;
+      position: absolute;
+      left: 321px;
+      top: 236px;
+    }
+
+  .line{
+		position: absolute;
+		width: 785px;
+		height: 0px;
+		left: 165px;
+		top: 1180px;
+
+		border: 3px solid #000000;
+	}
+.line2{
+		position: absolute;
+		width: 785px;
+		height: 0px;
+		left: 165px;
+		top: 1566px;
+
+		border: 3px solid #000000;
+	}
 
 /* BUTTONS */
 .big-button{
@@ -66,16 +133,6 @@ p{
 }
 
 .start{
-	text-align: center;
-	border: 1px solid;
-	padding: 16px 32px;
-	width: 880px;
-	height: 120px;
-	font-size: 36px;
-
-}
-
-.submit{
 	text-align: center;
 	border: 1px solid;
 	padding: 16px 32px;
@@ -128,7 +185,29 @@ p{
 	font-weight: medium;
 	margin-bottom: 200px;
 }
+.su-button{
+	position: absolute;
+	width: 885px;
+	height: 200px;
+	left: 111px;
+	top: 1827px;
 
+	/*background: #C4C4C4;
+	box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;*/
+	}
+
+.home-button{
+	position: absolute;
+	width: 885px;
+	height: 200px;
+	left: 111px;
+	top: 2027px;
+
+	/*background: #C4C4C4;
+	box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;*/
+	}
 
 
 body{
@@ -141,52 +220,4 @@ body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
-}
-
-.card{
-	border-style: solid;
-	border-radius: 12px;
-	border-collapse: separate;
-	padding-left: 32px;
-	padding-right: 32px;
-	margin-top: 16px;
-}
-
-.socials-time{
-	display: block;
-	float: right;
-}
-
-.social-icon{
-	display: block;
-	float:left;
-	clear: both;
-	margin-bottom: 80px;
-}
-
-.social-icon{
-	width: 160px;
-	height: auto;
-	
-}
-
-.session-buttons{
-	border: 1px solid;
-	border-radius: 8px;
-	margin: 16px 0px;
-	padding: 16px 32px;
-	text-align: center;
-}
-
-.question_form{
-	text-align: center;
-}
-
-.slider{
-	padding-bottom: 32px;
-	text-align: center;
-}
-
-.timeline{
-	text-align: center;
 }
