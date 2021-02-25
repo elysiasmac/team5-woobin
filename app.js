@@ -68,13 +68,9 @@ app.get('/insights', function (req, res) {
     res.render('insights');
 });
 
-//see more route 
-app.get('/seemore', function (req, res) {
-    res.render('seemore');
-});
-
-// route to seemore.js 
-var index = require('./routes/seemore');
+//register a route 
+//var seemoreRouter = require('./public/js/seemore')
+//app.use('/', seemoreRouter); 
 
 // set up path 
 var path = require('path'); 

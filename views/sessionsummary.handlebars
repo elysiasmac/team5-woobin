@@ -20,25 +20,21 @@
                 <a href="insights"><h4>See More</h4></a>
             </div>
         </div>
+        <div>
+             <h3>Most Used Apps</h3> 
+        </div>
+        {{#each socials}}
         <div class="socials">
-            <h3>Most Used Apps</h3> 
-            <div class="img">
-                <img class="social-icon" src="/images/iMessage App.png" alt="iMessage">
-            </div>
-            <div class="socials-time">
-                <h4> 24 minutes</h4>
-            </div>
-            <div class="img">
-                <img class="social-icon" src="/images/Instagram App.png" alt="Instagram">
-            </div>
-            <div class="socials-time">
-                <h4> 19 minutes</h4>
-            </div>
+            <p>{{app_name}}</p>
+            <p>{{minutes}}</p>
+        {{/each}}
         </div>
 
         <div class="big-button">
             <button type="button" class="submit"><a href="homepage">Exit Session</a></button>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/js/seemore.js"></script>
 </body>
 </html>
