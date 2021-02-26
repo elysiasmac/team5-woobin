@@ -1,12 +1,4 @@
 {
-	"socials": [
-		{
-			"app_name": "iMessage",
-			"minutes": "25 minutes"
-		},
-		{
-			"app_name": "Facebook",
-			"minutes": "45 minutes"
-		}
-	]
+	"app_name": "iMessage",
+	"minutes": "25 minutes"
 }
