@@ -68,6 +68,12 @@ app.get('/insights', function (req, res) {
     res.render('insights');
 });
 
+//timer route
+app.get('/timer', function (req, res) {
+    res.render('timer');
+});
+
+
 //register a route 
 //var seemoreRouter = require('./public/js/seemore')
 //app.use('/', seemoreRouter); 
